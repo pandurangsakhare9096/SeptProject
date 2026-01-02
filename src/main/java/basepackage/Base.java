@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class Base {
 	
-	public static WebDriver driver;
+	protected static WebDriver driver;
 	
 	@BeforeMethod
 	
@@ -28,7 +28,7 @@ public class Base {
 		Thread.sleep(2000);
 		Actions actions = new Actions(driver);
 		actions.sendKeys(Keys.CANCEL).perform();
-		//driver.quit();
+		driver.quit();
 
 }
 }

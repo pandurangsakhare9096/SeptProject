@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-02T00:53:54 IST" name="Default suite" finished-at="2025-11-02T00:54:01 IST" duration-ms="6221">
+  <suite started-at="2026-01-02T16:38:55 IST" name="Default suite" finished-at="2026-01-02T16:39:02 IST" duration-ms="6773">
     <groups>
     </groups>
-    <test started-at="2025-11-02T00:53:54 IST" name="Default test" finished-at="2025-11-02T00:54:01 IST" duration-ms="6221">
-      <class name="testpacakge.LoginPageTestClass">
-        <test-method is-config="true" signature="InitializeBrowser()[pri:0, instance:testpacakge.LoginPageTestClass@175c2241]" started-at="2025-11-02T00:53:54 IST" name="InitializeBrowser" finished-at="2025-11-02T00:53:58 IST" duration-ms="3706" status="PASS">
+    <test started-at="2026-01-02T16:38:55 IST" name="Default test" finished-at="2026-01-02T16:39:02 IST" duration-ms="6773">
+      <class name="testpacakge.HomePageTestClass">
+        <test-method is-config="true" signature="InitializeBrowser()[pri:0, instance:testpacakge.HomePageTestClass@175c2241]" started-at="2026-01-02T16:38:55 IST" name="InitializeBrowser" finished-at="2026-01-02T16:38:58 IST" duration-ms="3209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InitializeBrowser -->
-        <test-method signature="loginsaucelabtest()[pri:0, instance:testpacakge.LoginPageTestClass@175c2241]" started-at="2025-11-02T00:53:58 IST" name="loginsaucelabtest" finished-at="2025-11-02T00:53:59 IST" duration-ms="408" status="PASS">
+        <test-method signature="homePageTest()[pri:0, instance:testpacakge.HomePageTestClass@175c2241]" started-at="2026-01-02T16:38:58 IST" name="homePageTest" finished-at="2026-01-02T16:39:00 IST" duration-ms="1212" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginsaucelabtest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpacakge.LoginPageTestClass@175c2241]" started-at="2025-11-02T00:53:59 IST" name="tearDown" finished-at="2025-11-02T00:54:01 IST" duration-ms="2039" status="PASS">
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testpacakge.HomePageTestClass@175c2241]" started-at="2026-01-02T16:39:00 IST" name="tearDown" finished-at="2026-01-02T16:39:02 IST" duration-ms="2288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testpacakge.LoginPageTestClass -->
+      </class> <!-- testpacakge.HomePageTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

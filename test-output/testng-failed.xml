@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testpacakge.LoginPageTestClass">
+      <class name="testpacakge.HomePageTestClass">
         <methods>
-          <include name="loginsaucelabtest"/>
+          <include name="tearDown"/>
+          <include name="homePageTest"/>
+          <include name="InitializeBrowser"/>
         </methods>
-      </class> <!-- testpacakge.LoginPageTestClass -->
+      </class> <!-- testpacakge.HomePageTestClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

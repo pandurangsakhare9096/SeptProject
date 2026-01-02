@@ -1,1 +1,7 @@
 //This is sample feature file for GitHub Copilot
+// We are using selenium java for our automation project
+//We are using Maven Project
+//Testng framework
+// for this we have to use hybrid framework
+//POM classes will be different and Test classes will be different
+// We are using 
